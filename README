@@ -1,0 +1,9 @@
+Simple source code to read and use .mo files for internationalization.
+
+Updated 21 December 2007.
+
+If you want simple source code that will read a standard, efficiently loadable file format for internationalization string lookups, this may work for you. I wrote this because I was annoyed by trying to compile and use the big and cumbersome code that I found out there.
+
+Here is the code packed into one .cpp file (about 220 lines), along with sample files. The .po file is just a human-readable source file and is not read by the code. You use a tool to generate a .mo file from this. See the comments for more information. 
+
+http://number-none.com/blow/code/mo_file/index.html
